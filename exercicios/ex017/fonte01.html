@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+        body{
+            font-family:Arial, Helvetica, sans-serif;
+
+            /* Medidas Absolutas
+            cm, mm, in(polegada), px, pt, pc
+            
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            */
+            font-size:1em;
+        }
+        h1{
+            /* shorthand font
+            -font-style -> font-weight -> font-size -> font-family
+            
+            font-family:'work sans', sans-serif;
+            font-weight:bolder;
+            font-size:3em;
+            font-style:italic;
+            */
+            font:style bolder 3em 'work sans', sans-serif;
+        }
+        h2{
+            font:bolder 2em 'work sans', sans-serif;
+        }
+       
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo obcaecati similique iure perferendis blanditiis quibusdam labore a suscipit nesciunt necessitatibus minima, cumque sunt eos! Fugiat modi voluptas cupiditate voluptate recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, eligendi? Nemo natus vero fugiat facere, laboriosam quis sed, provident dolorum quaerat inventore maxime alias commodi! Ratione error repellendus iste nam.</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet ratione nihil consectetur rerum velit repudiandae soluta sequi modi voluptatum pariatur neque distinctio harum in dignissimos eveniet, reiciendis maiores similique natus?</p>
+    <h2>Subítitulo do exercício</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam aut aliquam placeat voluptatum odit labore veniam commodi eos praesentium illo eaque autem maxime, magnam totam itaque quisquam corporis. Quasi, facere.</p>
+    
+</body>
+</html>

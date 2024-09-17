@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        a{
+            color:red;
+            font-weight:bold;
+            text-decoration:none;
+        }
+        a:visited{
+            color:brown;
+        }
+        a:active{
+            color:yellow;
+        }
+        a:hover{
+            color:black;
+            text-decoration:underline;
+        }
+        .especial{
+            background-color:rgba(0, 0, 255, 0.678);
+        }
+        .especial::before{
+            content:'→ ';
+            color:darkgray;
+            font-weight:normal;
+            
+        }
+        .especial::after{
+            content:' ←';
+            color:darkgray;
+            font-weight:normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Links personalizados</h1>
+    <ul>
+        <li><a href="#">GitHub</a></li>
+        <li><a href="#" class="especial">Linkedin</a></li>
+        <li><a href="#" class="especial">YouTube</a></li>
+    </ul>
+    
+</body>
+</html>
