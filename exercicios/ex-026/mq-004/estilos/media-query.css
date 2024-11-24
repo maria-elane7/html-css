@@ -61,7 +61,7 @@ body{
 
 
 /* TELAS GRANDES */
-@media screen and (min-width:2560px){
+@media screen and (min-width:1920px){
     body{
         background-image:url(../imagens/back-tv.jpg);
     }
