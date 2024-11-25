@@ -24,6 +24,10 @@ header{
 
 header > h1{
     text-align:center;
+    color:var(--cor03);
+    font-size:2.5em;
+    padding:20px 0px;
+    text-shadow:1px 1px 5px #4174a09d;
 }
 
 menu{

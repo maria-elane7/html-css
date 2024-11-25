@@ -1,2 +1,24 @@
 @charset "UTF-8";
 
+@media screen and (min-width:778px){
+    #hamburgue{
+        display:none;
+    }
+    menu{
+        display:block;
+        margin:0 20px;
+    }
+
+    menu > ul > li{
+        display:inline-block;
+        background-color:#c502a5c4;
+        margin-top:10px;
+        margin-right: 10px; 
+    }
+    main{
+        width:800PX;
+    }
+
+   
+}
+
