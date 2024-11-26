@@ -55,7 +55,8 @@
 
 
             <h2>2. Media Types</h2>
-            <strong>O que são:</strong><p> Descrevem o tipo de dispositivo ou mídia ao qual o estilo será aplicado.</p>
+            <strong>O que são:</strong>
+            <p> Descrevem o tipo de dispositivo ou mídia ao qual o estilo será aplicado.</p>
             <strong>Tipos comuns:</strong>
             <p>- <strong>all:</strong> Padrão, aplica a todos os dispositivos.</p>
             <p>- <strong>screen:</strong> Para telas de computadores, tablets, smartphones, etc.</p>
@@ -111,7 +112,8 @@
             <strong>Exemplos de features:</strong>
             <p>- <strong>width</strong> / <strong>height</strong>: Largura ou altura da viewport.</p>
             <p>- <strong>max-width</strong> / <strong>min-width</strong>: Largura máxima ou mínima.</p>
-            <p>- <strong>orientation:</strong> Orientação da tela (<strong>portrait</strong> ou <strong>landscape</strong>).</p>
+            <p>- <strong>orientation:</strong> Orientação da tela (<strong>portrait</strong> ou
+                <strong>landscape</strong>).</p>
             <p>- <strong>resolution: </strong>Resolução da tela (dpi, dpcm, etc.).</p>
             <strong>Exemplo:</strong>
             <pre>
@@ -168,10 +170,12 @@
             <h3>Resumo Prático</h3>
             <p>1. Use <strong>media queries</strong> para adaptar o design.</p>
             <p>2. Conheça os <strong>media types</strong> para alvos específicos como <strong>screen</strong> e
-                <strong>print</strong>.</p>
+                <strong>print</strong>.
+            </p>
             <p>3. Aplique o <strong>mobile first</strong> para designs responsivos.</p>
             <p>4. Trabalhe com <strong>media features</strong> como <strong>max-width</strong> e
-                <strong>orientation</strong>.</p>
+                <strong>orientation</strong>.
+            </p>
             <p>5. Planeje seus <strong>breakpoints</strong> para diferentes dispositivos.</p>
 
 
@@ -180,12 +184,12 @@
 
     <script>
         var itens = document.querySelector('#itens');
-        
 
-        function mudouTamanho(){
-            if(window.innerWidth >= 778){
+
+        function mudouTamanho() {
+            if (window.innerWidth >= 778) {
                 itens.style.display = 'block'
-            }else{
+            } else {
                 itens.style.display = 'none'
             }
         }

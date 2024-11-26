@@ -64,7 +64,7 @@ menu > ul> li> a:hover{
 
 
 main{
-    width:90vw;
+    width:95vw;
     background-color:var(--cor03);
     margin:auto;
     padding:10px;
@@ -82,4 +82,9 @@ main p{
     text-indent:20px;
     justify-content:justify;
     margin-bottom:20px;
+}
+
+pre code{
+    white-space: wrap;
+    margin-top:20px;
 }
